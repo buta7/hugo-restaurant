@@ -55,6 +55,14 @@ make deploy
 
 Github>Settings>Gighub Pages>Source>master branch/docs folder
 
+## 既存のレポジトリからクローンする場合
+
+```shell
+git clone git@github.com:higebobo/hugo-restaurant.git higebobo-restaurant
+cd higebobo-restaurant
+git submodule update --init --recursive
+```
+
 ## 使い方
 
 ### 投稿
