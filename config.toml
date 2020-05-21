@@ -3,7 +3,7 @@ baseURL = "https://higebobo.github.io/hugo-restaurant/"
 languageCode = "ja"
 title = "Hugo Restaurant"
 theme = "restaurant-hugo"
-publishDir = "docs"
+#publishDir = "docs"
 summaryLength = "7"
 paginate = 6
 
