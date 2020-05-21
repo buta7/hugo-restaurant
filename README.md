@@ -88,15 +88,6 @@ content/blog/hello.md created
 vi content/blog/hello.md
 ```
 
-## Github連携
-
-config.tomlに以下の設定があることを確認
-
-```toml
-baseURL = "https://higebobo.github.com/hugo-restaurant/"
-publishDir = "docs"
-```
-
 公開(githubにプッシュ)
 
 ```shell
