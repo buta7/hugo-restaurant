@@ -40,7 +40,7 @@ baseURL = "https://higebobo.github.io/hugo-restaurant/"
 languageCode = "ja"
 title = "Hugo Restaurant"
 theme = "restaurant-hugo"
-publishDir = "docs"
+#publishDir = "docs"
 ```
 
 > github pagesやnetlifyで使う場合はbaseURLのプロトコルはhttpsにすること
@@ -48,12 +48,20 @@ publishDir = "docs"
 Githubレポジトリ作成後
 
 ```shell
-git remote add origin git@github.com:higebobo/hugo-restaurant.git
 cp somplace/{Makefile,deploy.sh} .
-make deploy
+git remote add origin git@github.com:higebobo/hugo-restaurant.git
+git add .
+git commit -m 'init'
+git push -u origin master
 ```
 
 Github>Settings>Gighub Pages>Source>master branch/docs folder
+
+## Github Actionsの利用
+
+* .github/workflows/gh-pages.yamlを作成
+    * ソースはmasterブランチ
+    * 出力はpublicフォルダの内容をgh-pagesブランチ
 
 ## 既存のレポジトリからクローンする場合
 
