@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://higebobo.github.io/hugo-restaurant/"
+baseURL = "https://buta7.github.io/hugo-restaurant/"
 languageCode = "ja"
 title = "Hugo Restaurant"
 theme = "restaurant-hugo"
